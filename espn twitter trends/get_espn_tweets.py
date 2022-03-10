@@ -17,10 +17,10 @@ def get_all_tweets(screen_name):
     #Twitter only allows access to a users most recent 3240 tweets with this method
     
     #authorize twitter, initialize tweepy
-    auth = tweepy.OAuthHandler('R5KOsjIiV5r6MmiMXk7AgdVAk', 
-                           'LdeUr7KTwQyc4ytKYOyEil4y8iB0tQ6P7C35dqhYeWO7oCIc0o')
-    auth.set_access_token('1101603833606750211-iik20RJY1FO79cqODsXrSZgyLrcGhl', 
-                          'eynKD9NA9Hkq5iSTflOJWJ6Q81kCgfkq2obpiCgtCY0EL')
+    auth = tweepy.OAuthHandler('YOUR ACCESS CODES', 
+                           'YOUR ACCESS CODES')
+    auth.set_access_token('YOUR ACCESS CODES', 
+                          'YOUR ACCESS CODES')
     
     api = tweepy.API(auth)
     
@@ -70,10 +70,10 @@ if __name__ == '__main__':
         data.append(int(a[-1]))
         
     #%%
-    auth = tweepy.OAuthHandler('R5KOsjIiV5r6MmiMXk7AgdVAk', 
-                           'LdeUr7KTwQyc4ytKYOyEil4y8iB0tQ6P7C35dqhYeWO7oCIc0o')
-    auth.set_access_token('1101603833606750211-iik20RJY1FO79cqODsXrSZgyLrcGhl', 
-                          'eynKD9NA9Hkq5iSTflOJWJ6Q81kCgfkq2obpiCgtCY0EL')
+    auth = tweepy.OAuthHandler('YOUR ACCESS CODES', 
+                           'YOUR ACCESS CODES')
+    auth.set_access_token('YOUR ACCESS CODES', 
+                          'YOUR ACCESS CODES')
     
     api = tweepy.API(auth, wait_on_rate_limit = True)
     
